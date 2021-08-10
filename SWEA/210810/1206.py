@@ -14,5 +14,4 @@ def view():
 
         print("#{} {}".format(tc, result))
 
-
 view()
