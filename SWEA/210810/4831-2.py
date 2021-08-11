@@ -1,4 +1,4 @@
-def bus(KNM, M, cnt=0):
+def bus(K, N, M, charge, cnt=0):
     """
     A도시는 전기버스를 운행하려고 한다. 전기버스는 한번 충전으로 이동할 수 있는 정류장 수가 정해져 있어서,
     중간에 충전기가 설치된 정류장을 만들기로 했다.
@@ -17,20 +17,20 @@ def bus(KNM, M, cnt=0):
     [출력]
     #과 노선번호, 빈칸에 이어 최소 충전횟수 또는 0을 출력한다.
     """
-    if KNM[1] <= KNM[0]:
+    if N <= K:
         return cnt
-    for i in range(KNM[0], 0, -1):
-        if i in M:
-            KNM[1] -= i
-            for j in range(len(M)):
-                M[j] -= i
+    for i in range(K, 0, -1):
+        if i in charge:
+            N -= i
+            for j in range(M):
+                charge[j] -= i
             cnt += 1
-            return bus(KNM, M, cnt)
+            return bus(K, N, M, charge, cnt)
     return 0
 
 
 T = int(input())
 for tc in range(1, T + 1):
-    KNM = list(map(int, input().strip().split()))
-    M = list(map(int, input().strip().split()))
-    print("#{} {}".format(tc, bus(KNM, M)))
+    K, N, M = map(int, input().split())
+    charge = list(map(int, input().split()))
+    print("#{} {}".format(tc, bus(K, N, M, charge)))
