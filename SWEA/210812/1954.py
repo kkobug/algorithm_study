@@ -75,15 +75,39 @@ def snail_delta():
                 direction = (direction + 1) % 4
                 row += dr[direction]
                 col += dc[direction]
-    print(ans)
+        print(ans)
     # print("#{}".format(tc))
     # for a in ans: print(*a)
 
 
-snail_delta()
+# snail_delta()
 
 
-def snail_hover():
-    for tc in range(1, 1+int(input())):
+def snail_my():
+    for tc in range(1, 1 + int(input())):
         N = int(input())
-        arr = [[0] * N for n in range(N)]
+        arr = [[0] * N for _ in range(N)]
+        dr = [1, 0, -1, 0]
+        dc = [0, -1, 0, 1]
+        row, col = 0, N-1
+        num, d = 1, 0
+
+        while num <= N * N:
+            arr[row][col] = num
+            num += 1
+
+            nr, nc = row + dr[d], col + dc[d]
+
+            if 0 <= nr < N and 0 <= nc < N and arr[nr][nc] == 0:
+                row, col = nr, nc
+            else:
+                d = (d+1)%4
+                row += dr[d]
+                col += dc[d]
+
+        print(tc)
+        for i in range(N):
+            print(*arr[i])
+
+
+snail_my()
