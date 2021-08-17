@@ -19,8 +19,9 @@ def hoi():
         for t in range(2):
             for i in range(N):
                 for j in range(N - M + 1):
-                    if ''.join(words[i][j:j+M])[::-1] in ''.join(words[i]):
-                        print("#{} {}".format(tc, ''.join(words[i][j:j + M])[::-1]))
+                    temp = words[i][j:j+M]
+                    if temp == temp[::-1]:
+                        print("#{} {}".format(tc, ''.join(temp)))
                         cnt += 1
                         break
                 if cnt >= 1: break
