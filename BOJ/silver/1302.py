@@ -7,7 +7,8 @@ for i in range(N):
     else:  # 없으면 책장에 꽂기
         books[book] = 1
 
-best = 0
+best = 0  # 판매수
+ans = ""  # 베스셀러 제목
 for k, v in books.items():
     if v > best:  # 많이팔렸나?
         best = v

@@ -11,6 +11,11 @@
 #         cnt += 1
 #
 # print(cnt)
+
+
+
+
+
 """
 절취선
 """
@@ -37,6 +42,12 @@ print(ans)
 """
 절취선
 """
+
+
+
+
+
+
 # d = int(input())
 # x, y = map(int, input().split())
 # ans = 0
