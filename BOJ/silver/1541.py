@@ -24,10 +24,8 @@ for i in num[0].split('+'):
     result += int(i)
 
 for j in num[1:]:
-    print(j.split('+'))
     for k in j.split('+'):
-        print(k)
-        num -= int(k)
+        result -= int(k)
 
 
 print(result)
