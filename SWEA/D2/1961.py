@@ -35,7 +35,7 @@ def rotate():
             print("{} {} {}".format(''.join(r_90[k]), ''.join(r_180[k]), ''.join(r_270[k])))
 
 
-# rotate()
+rotate()
 
 
 def rotate_90(array, N):
