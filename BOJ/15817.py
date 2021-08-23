@@ -6,6 +6,32 @@ ans = [0] * (x+1)
 
 max_data = 0
 for j in range(N):
+    temp_ans = ans[:]
+    max_data += (pipe[j][0] * pipe[j][1])
+    ans[pipe[j][0]] += 1
+    for k in range(pipe[j][0]+1, x+1):
+        if k > max_data: break
+
+        if k >= pipe[j][0] * (pipe[j][1] + 1):
+            if temp_ans[k - pipe[j][0]]:
+                ans[k] = temp_ans[k - pipe[j][0]] + temp_ans[k] + 1
+            else:
+                ans[k] = temp_ans[k - pipe[j][0]] + temp_ans[k]
+
+        elif ans[k] or ans[k - pipe[j][0]]:
+            ans[k] += ans[k - pipe[j][0]]
+
+print(ans)
+print(ans[x])
+
+
+
+"""N, x = map(int, st.readline().split())
+pipe = [list(map(int, st.readline().split())) for _ in range(N)]
+ans = [0] * (x+1)
+
+max_data = 0
+for j in range(N):
     max_data += (pipe[j][0] * pipe[j][1])
     ans[pipe[j][0]] += 1
     for k in range(pipe[j][0]+1, x+1):
@@ -17,3 +43,4 @@ for j in range(N):
 
 print(ans)
 print(ans[x])
+"""
