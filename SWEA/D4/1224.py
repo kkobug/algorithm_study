@@ -30,7 +30,7 @@ for tc in range(1, 11):
             postfix += inf
             continue
 
-        if inf == "(":  # 여는 괄호는 그냥 push
+        if inf == "(":  # 우선순위 최하위인 여는 괄호는 그냥 push
             stack.append("(")
 
         elif inf == ")":  # 닫는 괄호는 여는 괄호가 나올 때 까지 pop
@@ -38,8 +38,8 @@ for tc in range(1, 11):
                 postfix += stack.pop()
             stack.pop()
 
-        elif stack and op[inf] <= op[stack[-1]]:  # 스택이 있는데 top 보다 우선순위가 낮다면
-            while stack and op[inf] <= op[stack[-1]]:  # 그렇지 않을때까지 pop
+        elif stack and op[inf] < op[stack[-1]]:  # 스택이 있는데 top 보다 우선순위가 낮다면
+            while stack and op[inf] < op[stack[-1]]:  # 그렇지 않을때까지 pop
                 postfix += stack.pop()
             stack.append(inf)
 
@@ -53,17 +53,17 @@ for tc in range(1, 11):
         if pof in "0123456789":  # 숫자는 그냥 push
             stack.append(pof)
             continue
-        elif pof == "+":  # + 연산은 순서가 상관없으므로 그냥 더하기
-            stack.append(int(stack.pop()) + int(stack.pop()))
-        elif pof == "*":  # * 연산은 순서가 상관없으므로 그냥 곱하기
-            stack.append(int(stack.pop()) * int(stack.pop()))
-        elif pof == "-":  # - 연산은 순서가 상관없으므로 역순으로 연산
+
+        else:  # -, / 연산은 순서가 상관없으므로 역순으로 연산
             temp_b = int(stack.pop())
             temp_a = int(stack.pop())
-            stack.append(temp_a - temp_b)
-        elif pof == "/":  # / 연산은 순서가 상관없으므로 역순으로 연산
-            temp_b = int(stack.pop())
-            temp_a = int(stack.pop())
-            stack.append(temp_a / temp_b)
+            if pof == "+":
+                stack.append(temp_a + temp_b)
+            elif pof == "*":
+                stack.append(temp_a * temp_b)
+            elif pof == "-":
+                stack.append(temp_a - temp_b)
+            elif pof == "/":
+                stack.append(temp_a / temp_b)
 
     print("#{} {}".format(tc, stack.pop()))

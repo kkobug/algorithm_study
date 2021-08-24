@@ -31,10 +31,10 @@ for tc in range(1, 11):
         if inf == ")":  # 닫는 괄호는 여는 괄호가 나올 때 까지 pop
             while stack[-1] != "(":
                 postfix += stack.pop()
-            stack.pop()
+            # stack.pop()
 
-        elif stack and op[inf] <= op[stack[-1]]:  # 스택이 있는데 top 보다 우선순위가 낮다면
-            while stack and op[inf] <= op[stack[-1]]:  # 그렇지 않을때까지 pop
+        elif stack and op[inf] < op[stack[-1]]:  # 스택이 있는데 top 보다 우선순위가 낮다면
+            while stack and op[inf] < op[stack[-1]]:  # 그렇지 않을때까지 pop
                 postfix += stack.pop()
             stack.append(inf)
 
