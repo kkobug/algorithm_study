@@ -25,13 +25,13 @@ N개의 숫자로 이루어진 수열이 주어진다. 맨 앞의 숫자를 맨 
 """
 for tc in range(1, 1+int(input())):
     N, M = map(int, input().split())
-    nums = [0] + list(map(int, input().split()))
+    nums = [0] + list(map(int, input().split()))  # 원형 큐
     front, rear = 0, N
 
-    while M > 0:
-        front = (front+1) % (N+1)
-        rear = (rear+1) % (N+1)
+    for _ in range(M):
+        front = (front+1) % (N+1)                 # dequeue
+        rear = (rear+1) % (N+1)                   # enqueue
         nums[rear] = nums[front]
-        M -= 1
 
     print("#{} {}".format(tc, nums[(front+1)%(N+1)]))
+

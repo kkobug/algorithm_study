@@ -26,7 +26,6 @@ N이 주어졌을 때, 제일 마지막에 남게 되는 카드를 구하는 프
 
 
 def counting(nums):
-    # Queue basic
     front = 0
     rear = len(nums) - 1
     while front < rear:
@@ -36,5 +35,6 @@ def counting(nums):
         front += 1
 
     return nums[front]
+
 
 print(counting(list(range(1, 1 + int(input())))))

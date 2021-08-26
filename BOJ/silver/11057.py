@@ -40,36 +40,9 @@ sol1
 
 """
 sol2
-계산하는건 시간초과가 뜬다.
-백트래킹을 이용해 직접 카운트 하자
-"""
-
-
-# def up(i, j):
-#     global cnt
-#
-#     if i == N-1:
-#         cnt += 1
-#         return
-#
-#     for k in range(j, 10):
-#         if not check[i][j]:
-#             check[i][j] = True
-#             up(i+1, k)
-#             check[i][j] = False
-#
-#
-# N = int(st.readline())
-# check = [[False]*10 for _ in range(N)]
-# cnt = 0
-# up(0, 0)
-# print(cnt%10007)
-
-
-"""
-sol3
 시간초과 안뜨게 반복문으로 해봄
 """
+
 
 def iterup(x):
     nums = [1] * 10
@@ -80,3 +53,27 @@ def iterup(x):
 
 
 print(iterup(int(st.readline())))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

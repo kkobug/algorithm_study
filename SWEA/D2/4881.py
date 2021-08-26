@@ -55,6 +55,6 @@ for tc in range(1, 1+int(input())):
     N = int(input())
     nums = [list(map(int, input().split())) for _ in range(N)]
     ans = 10 * N  # 10보다 작은 자연수만 주어지므로 답은 10*N보다 커질 수 없음
-    check = [False]*10  # 가능성 체크
+    check = [False] * N  # 가능성 체크
     get_case()
     print("#{} {}".format(tc, ans))
