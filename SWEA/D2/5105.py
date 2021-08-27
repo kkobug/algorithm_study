@@ -57,10 +57,10 @@ def bfs(r, c):
             nc = c + dc[d]
 
             if 0 <= nr < N and 0 <= nc < N and (maze[nr][nc] == '0' or maze[nr][nc] == '3'):  # 길이거나 도착지이면
-                maze[nr][nc] = maze[r][c] + 1  # 마스킹 하면서 지나기
+                maze[nr][nc] = maze[r][c] + 1  # 마킹 하면서 지나기
                 visited.append((nr, nc))  # 방명록 작성
 
-        if maze[ei][ej] != '3':  # 목적지에 마스킹 됐으면
+        if maze[ei][ej] != '3':  # 목적지에 마킹 됐으면
             return maze[r][c]  # 결과 출력
 
     return 0  # 목적지에 못가고 길이 막히면 0
@@ -78,7 +78,7 @@ for tc in range(1, 1+int(input())):
         for j in range(N):
             if maze[i][j] == '2':
                 si, sj = i, j
-                maze[si][sj] = 0  # 출발점 마스킹
+                maze[si][sj] = 0  # 출발점 마킹
             elif maze[i][j] == '3':
                 ei, ej = i, j
 

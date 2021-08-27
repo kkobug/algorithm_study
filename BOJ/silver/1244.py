@@ -41,11 +41,11 @@
 """
 
 
-def on_off(x):
-    if x == 1:
-        return 0
-    elif x == 0:
-        return 1
+# def on_off(x):
+#     if x == 1:
+#         return 0
+#     elif x == 0:
+#         return 1
 
 
 N = int(input())
@@ -55,14 +55,14 @@ for _ in range(int(input())):
     idx = num - 1
     if sex == 1:
         for i in range(idx, N, num):
-            switch[i] = on_off(switch[i])
+            switch[i] = 1-switch[i]
     elif sex == 2:
-        switch[idx] = on_off(switch[idx])
+        switch[idx] = 1-switch[idx]
         j = 1
         while idx + j < N and 0 <= idx - j:
-            if switch[idx + j] == switch[idx - j]:
-                switch[idx+j] = on_off(switch[idx+j])
-                switch[idx-j] = on_off(switch[idx-j])
+            if switch[idx+j] == switch[idx-j]:
+                switch[idx+j] = 1-switch[idx+j]
+                switch[idx-j] = 1-switch[idx-j]
             else:
                 break
             j += 1
