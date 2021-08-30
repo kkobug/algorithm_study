@@ -1,16 +1,23 @@
-books = {}
-for _ in range(int(input())):
-    book = input()
-    if book in books:
-        books[book] += 1
-    else:
-        books[book] = 1
+def drink(i=0):
+    global ans, temp
 
-best = 0
-target = '~'
-for key, val in books.items():
-    if val > best:
-        best = val
-        target = key
-    elif val == best:
-        if target[0] > key[0]:
+    if i == N:
+        if ans < temp:
+            ans = temp
+        return
+
+    if i < 2 or (not check[i-2] or not check[i-1]):
+        check[i] = True
+        temp += nums[i]
+        drink(i+1)
+        check[i] = False
+        temp -= nums[i]
+
+
+N = int(input())
+
+nums = [int(input()) for _ in range(N)]
+check = [False] * N
+ans = temp = 0
+drink()
+print(ans)
