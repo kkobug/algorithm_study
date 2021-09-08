@@ -1,8 +1,4 @@
-"""
-https://www.acmicpc.net/problem/12100
-보드를 돌릴까?
-상하좌우를 다 구현할까?
-"""
+# https://www.acmicpc.net/problem/12100
 from sys import stdin as st
 from copy import deepcopy as dc
 
