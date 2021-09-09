@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/13460
 def push(d):
     global ri, rj, bi, bj, flagR, flagB
     lenR = lenB = 0

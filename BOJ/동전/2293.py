@@ -1,15 +1,9 @@
 N, K = map(int, input().split())
 nums = [int(input()) for _ in range(N)]
 
-ans = [0] * (K+1)
-
+ans = [1] + [0]*K
 for i in range(N):
-    temp = [0]*(K+1)
-    for j in range(nums[i], K+1, nums[i]):
-        temp[j] = 1
+    for k in range(i, K+1):
+        ans[k] += ans[k-i]
 
-    print(temp)
-    for k in range(nums[i], K+1):
-        ans[k] += temp[k] + ans[k-nums[i]]
-
-print(ans[K])
+print(ans)
