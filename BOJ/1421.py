@@ -1,10 +1,28 @@
-N, M = map(int, input().split())
-box = [list(map(int, input())) for _ in range(N)]
-m = 0
-if N > M: N, M = M, N
-for s in range(1, N):
-    for i in range(N-s+1):
-        for j in range(M-s+1):
-            if box[i][j] == box[i][j+s-1] == box[i+s-1][j] == box[i+s-1][j+s-1]:
-                if s > m: m = s
-print((s+1)*(s+1))
+"""
+https://www.acmicpc.net/problem/1421
+예제 입력 1
+3 1 10
+26
+103
+59
+예제 출력 1
+1770
+"""
+N, C, W = map(int, input().split())
+woods = [int(input()) for _ in range(N)]
+ans = 0
+for i in range(1, max(woods)+1):
+    temp = 0
+    for wood in woods:
+        if wood < i:
+            continue
+        temp += W*(wood//i) * i
+        if wood%i:
+            temp -= C*(wood//i)
+        else:
+            temp -= C*(wood//i - 1)
+
+    if temp > ans:
+        ans = temp
+
+print(ans)
