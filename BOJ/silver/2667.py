@@ -30,60 +30,37 @@
 9
 """
 
-
-# def BFS(r, c):
-#     Q = [(r, c)]
-#     visited[r][c] = True
-#     cnt = 0
-#
-#     while Q:
-#         cr, cc = Q.pop(0)
-#         cnt += 1
-#         for d in range(4):
-#             nr = cr + dr[d]
-#             nc = cc + dc[c]
-#
-#             if 0 <= nr < N and 0 <= nc < N and arr[nr][nc] == '1' and not visited[i][j]:
-#                 Q.append((nr, nc))
-#                 visited[nr][nc] = True
-
-
-def DFS(r, c):
-    global danji
-    danji += 1
-    cnt = 0
-    stack = [(r, c)]
-    visited[r][c] = True
-
-    while stack:
-        cr, cc = stack.pop()
-        for d in range(4):
-            nr = cr + dr[d]
-            nc = cc + dr[d]
-
-            if 0 <= nr < N and 0 <= nc < N and arr[nr][nc] == '1' and not visited[i][j]:
-                cnt += 1
-                cr, cc = nr, nc
-                stack.append((nr, nc))
-                visited[nr][nc] = True
-
-    return cnt
-
-
-
-
-dr = [0, 0, 1, -1]
-dc = [1, -1, 0, 0]
+dr = [0, 1, 0, -1]
+dc = [1, 0, -1, 0]
 N = int(input())
-arr = [list(input()) for _ in range(N)]
-visited = [[False] * N for _ in range(N)]
-ans = []
+city, visited, ans = [], [], []
+for _ in range(N):
+    city.append(list(map(int, input())))
+    visited.append([False]*N)
+
+stack = []
 
 for i in range(N):
     for j in range(N):
-        if arr[i][j] == '1' and not visited[i][j]:
-            # ans.append(BFS(i, j))
-            danji = 0
-            ans.append(DFS(i, j))
+        cnt = 0
+        if visited[i][j]:
+            continue
+        stack.append((i, j))
+        visited[i][j] = True
+        while stack:
+            r, c = stack.pop()
+            for d in range(4):
+                nr = r + dr[d]
+                nc = c + dc[d]
+                if 0 <= nr < N and 0 <= nc < N and city[i][j] == city[nr][nc] and not visited[nr][nc]:
+                    stack.append((nr, nc))
+                    visited[nr][nc] = True
 
-print(ans)
+            if city[i][j]:
+                cnt += 1
+        if cnt:
+            ans.append(cnt)
+ans.sort()
+print(len(ans))
+for a in range(len(ans)):
+    print(ans[a])
