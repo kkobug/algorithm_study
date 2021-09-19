@@ -19,33 +19,3 @@ date = [list(map(int, input().split())) for _ in range(N)]
 ans = 0
 talk()
 print(ans)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# N = int(input())
-# date = [list(map(int, input().split())) for _ in range(N)]
-# ans = [0] * (N+1)
-# for i in range(N-1, -1, -1):
-#     if date[i][0] + i > N:
-#         ans[i] = ans[i+1]
-#         continue
-#     temp = ans[i + date[i][0]] + date[i][1]
-#     if ans[i+1] < temp:
-#         ans[i] = temp
-#     else:
-#         ans[i] = ans[i+1]
-# print(ans[0])
