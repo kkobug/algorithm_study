@@ -1,3 +1,18 @@
+"""
+https://www.acmicpc.net/problem/1245
+예제 입력 1
+8 7
+4 3 2 2 1 0 1
+3 3 3 2 1 0 1
+2 2 2 2 1 0 0
+2 1 1 1 1 0 0
+1 1 0 0 0 1 0
+0 0 0 1 1 1 0
+0 1 2 2 1 1 0
+0 1 1 1 2 1 0
+예제 출력 1
+3
+"""
 N, M = map(int, input().split())
 mountain = [list(map(int, input().split())) for _ in range(N)]
 visited = [[False]*M for _ in range(N)]

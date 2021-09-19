@@ -4,7 +4,7 @@
 
 ### 📚\<시리즈\>📘
 
-삼성 SW 역량 테스트 기출 문제
+[삼성 SW 역량 테스트 기출 문제](https://github.com/kkobug/algorithm_study/tree/master/BOJ/%EC%82%BC%EC%84%B1SW%20%EC%97%AD%EB%9F%89%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C)
 
 | No    | Difficulty | 문제                    | comment                       | solved |
 | ----- | ---------- | ----------------------- | ----------------------------- | ------ |
@@ -21,7 +21,7 @@
 
 
 
-Longest Increasing Subsequence(LIS) : Dynamic Programming + Binary Search
+[Longest Increasing Subsequence(LIS)](https://github.com/kkobug/algorithm_study/tree/master/BOJ/LIS) : Dynamic Programming + Binary Search
 
 | No    | Difficulty | 문제                         | comment                 | solved |
 | ----- | ---------- | ---------------------------- | ----------------------- | ------ |
@@ -34,7 +34,7 @@ Longest Increasing Subsequence(LIS) : Dynamic Programming + Binary Search
 
 
 
-동전 : Dynamic Programming ✔
+[동전](https://github.com/kkobug/algorithm_study/tree/master/BOJ/%EB%8F%99%EC%A0%84) : Dynamic Programming ✔
 
 | No    | Difficulty | 문제   | comment | solved |
 | ----- | ---------- | ------ | ------- | ------ |
@@ -44,7 +44,7 @@ Longest Increasing Subsequence(LIS) : Dynamic Programming + Binary Search
 
 
 
-N과 M : 경우의 수 ✔
+[N과 M](https://github.com/kkobug/algorithm_study/tree/master/BOJ/N%EA%B3%BC%20M) : 경우의 수 ✔
 
 | No    | Difficulty | 문제       | comment                               | solved |
 | ----- | ---------- | ---------- | ------------------------------------- | ------ |
@@ -63,7 +63,7 @@ N과 M : 경우의 수 ✔
 
 
 
-색종이 : 구간합
+[색종이](https://github.com/kkobug/algorithm_study/tree/master/BOJ/%EC%83%89%EC%A2%85%EC%9D%B4) : 구간합
 
 | No   | Difficulty | 문제       | comment | solved |
 | ---- | ---------- | ---------- | ------- | ------ |
