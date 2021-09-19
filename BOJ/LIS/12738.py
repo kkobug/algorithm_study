@@ -2,14 +2,14 @@ import bisect
 
 N = int(input())
 nums = list(map(int, input().split()))
-dp = [nums[0]]
+LIS = [nums[0]]
 
 
 for i in range(1, N):
-    if nums[i-1] < nums[i]:
-        dp.append(nums[i])
+    if LIS[-1] < nums[i]:
+        LIS.append(nums[i])
     else:
-        idx = bisect.bisect_left(dp, nums[i])
-        dp[idx] = nums[i]
+        idx = bisect.bisect_left(LIS, nums[i])
+        LIS[idx] = nums[i]
 
-print(len(dp))
+print(len(LIS))

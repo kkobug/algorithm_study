@@ -1,27 +1,23 @@
-import bisect
+import sys, bisect
 
-N = int(input())
-nums = list(map(int, input().split()))
-dp = [1] * N
-LIS = [nums[0]]
+N = int(sys.stdin.readline())
+arr = list(map(int, sys.stdin.readline().split()))
+LIS = [sys.maxsize] * N
+DP = [0] * N
 
-for i in range(1, N):
-    if nums[i-1] < nums[i]:
-        dp[i] = dp[i-1] + 1
-        LIS.append(nums[i])
-    elif nums[i-1] > nums[i]:
-        idx = bisect.bisect_left(LIS, nums[i])
-        LIS[idx] = nums[i]
-        dp[i] = dp[idx-1]
+for i in range(N):
+    idx = bisect.bisect_left(LIS, arr[i])
+    LIS[idx] = arr[i]
+    DP[i] = idx
 
-max_idx = max(dp)
+max_idx = bisect.bisect_left(LIS, sys.maxsize)
 print(max_idx)
+
 ans = []
-
-for i in range(max_idx, -1, -1):
-    if dp[i] == max_idx:
-        ans.append(nums[i])
-        max_idx -= 1
-
+end = max(DP)
+for i in range(N - 1, -1, -1):
+    if DP[i] == end:
+        ans.append(arr[i])
+        end -= 1
 ans.reverse()
 print(*ans)
