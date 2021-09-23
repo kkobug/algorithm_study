@@ -1,8 +1,7 @@
 def inorder(k):
-    if 2*k <= N:
+    if k <= N:
         inorder(2*k)
-    print(tree[k], end="")
-    if 2*k+1 <= N:
+        print(tree[k], end="")
         inorder(2*k+1)
 
 
