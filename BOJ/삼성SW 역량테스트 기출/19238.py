@@ -1,3 +1,21 @@
+"""
+https://www.acmicpc.net/problem/19238
+예제 입력
+6 3 15
+0 0 1 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 1 0
+0 0 0 1 0 0
+6 5
+2 2 5 6
+5 4 1 6
+4 2 3 5
+
+예제 출력
+14
+"""
 def find_pass(ti, tj):
     if city[ti][tj] == 2 and passenger.get((ti, tj)):
         return ti, tj, 0
@@ -19,12 +37,12 @@ def find_pass(ti, tj):
                 visited[ni][nj] = visited[i][j] + 1
 
                 if city[ni][nj] > 1:  # 승객이네?
-                    if flag:  # 찾은 승객이 없네?
+                    if flag:  # 찾은 승객이 없네? : 최초 승객 발견
                         tempi, tempj = ni, nj
                         temp = visited[ni][nj]  # 사용한 연료
                         flag = False
 
-                    if not flag and temp > visited[ni][nj]:
+                    if not flag and temp >= visited[ni][nj]:  # 2번째 이후 승객 발견
                         if ni < tempi:
                             tempi, tempj = ni, nj
                         elif ni > tempi:
@@ -76,27 +94,21 @@ dj = [0, -1, 0, 1]
 for tc in range(M):
     taxi, taxj, cost1 = find_pass(taxi, taxj)
     city[taxi][taxj] = 0
-    print(taxi, taxj, cost1)
 
     E -= cost1
-    # print(E)
     if E < 0 or cost1 == -1:
         ans = -1
         break
 
     who = passenger[(taxi, taxj)]
     taxi, taxj, cost2 = find_flag(taxi, taxj, who)
-    # city[taxi][taxj] = 0
-    print(taxi, taxj, cost2)
 
     E -= cost2
-    print(E)
     if E < 0 or cost2 == -1:
         ans = -1
         break
 
     E += 2 * cost2
-    print(E)
 
 if ans == -1: print(ans)
 elif E: print(E)
