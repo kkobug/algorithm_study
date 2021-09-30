@@ -1,3 +1,17 @@
+"""
+https://www.acmicpc.net/problem/17141
+예제 입력 1
+7 3
+2 0 0 0 1 1 0
+0 0 1 0 1 2 0
+0 1 1 0 1 0 0
+0 1 0 0 0 0 0
+0 0 0 2 0 1 1
+0 1 0 0 0 0 0
+2 1 0 0 0 0 2
+예제 출력 1
+5
+"""
 from copy import deepcopy
 
 def bfs(L, V):
@@ -17,9 +31,9 @@ def bfs(L, V):
         maxi = max(max(L[a]), maxi)
 
     if mini == 0:
-        return 0
+        return 0, False
     else:
-        return maxi - 2
+        return maxi - 2, True
 
 
 def spray(idx=0, cnt=0, Q=[]):
@@ -27,9 +41,9 @@ def spray(idx=0, cnt=0, Q=[]):
 
     if cnt == M:
         temp = bfs(deepcopy(lab), deepcopy(Q))
-        if temp:
-            if temp < ans:
-                ans = temp
+        if temp[1]:
+            if temp[0] < ans:
+                ans = temp[0]
         return
 
     for i in range(idx, len(virus)):
@@ -59,3 +73,5 @@ if ans == 10000:
     print(-1)
 else:
     print(ans)
+
+

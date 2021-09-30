@@ -1,48 +1,54 @@
+"""
+https://www.acmicpc.net/problem/17142
+예제 입력
+5 1
+2 2 2 1 1
+2 1 1 1 1
+2 1 1 1 1
+2 1 1 1 1
+2 2 2 1 1
+예제 출력
+0
+"""
+from collections import deque
 from copy import deepcopy
 
 def bfs(L, V):
     while V:
-        r, c = V.pop(0)
+        r, c = V.popleft()
         for d in range(4):
             nr = r + dr[d]
             nc = c + dc[d]
-            if 0 <= nr < N and 0 <= nc < N:
-                if L[nr][nc] == 0:
-                    L[nr][nc] = L[r][c] + 1
-                    V.append((nr, nc))
-
-                elif L[nr][nc] == 2:
-                    L[nr][nc] = L[r][c]
-                    V.append((nr, nc))
-
+            if 0 <= nr < N and 0 <= nc < N and L[nr][nc] == 0:
+                L[nr][nc] = L[r][c] + 1
+                V.append((nr, nc))
 
     mini = 100000
-    maxi = 0
+    maxi = 2
     for a in range(N):
-        mini = min(min(L[a]), mini)
-        maxi = max(max(L[a]), maxi)
+        for b in range(N):
+            if (a, b) in virus:
+                continue
+            mini = min(L[a][b], mini)
+            maxi = max(L[a][b], maxi)
 
-    if mini == 0:
-        return 0
-    else:
-        return maxi - 3
+    return maxi - 2, mini
 
 
-def spray(idx=0, cnt=0, Q=[]):
+def spray(idx=0, cnt=0, Q=deque()):
     global ans
 
     if cnt == M:
         temp = bfs(deepcopy(lab), deepcopy(Q))
-        if temp:
-            if temp < ans:
-                ans = temp
+        if temp[1] and temp[0] < ans:
+            ans = temp[0]
         return
 
     for i in range(idx, len(virus)):
         Q.append(virus[i])
-        lab[virus[i][0]][virus[i][1]] = 3
-        spray(i+1, cnt+1, Q)
         lab[virus[i][0]][virus[i][1]] = 2
+        spray(i+1, cnt+1, Q)
+        lab[virus[i][0]][virus[i][1]] = 0
         Q.pop()
 
 
@@ -57,6 +63,7 @@ for i in range(N):
     for j in range(N):
         if temp[j] == 2:
             virus.append((i, j))
+            lab[i][j] = 0
 
 ans = 10000
 spray()
