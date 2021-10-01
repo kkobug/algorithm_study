@@ -1,3 +1,5 @@
+import sys
+sys.stdin = open('sample_input.txt', 'r')
 """
 SWEA : [S/W 문제해결 응용] 1일차 - 암호코드 스캔
 """
@@ -17,13 +19,19 @@ def is_10(X):
             ret += 3*X[i]
     if ret % 10:
         return False
-    else:
-        return True
+    return True
 
-
+# 1. 유효하지 않은 코드는 있어도, 해독이 불가능한 코드는 없다.
+# 2. 16진 코드가 다르지만, 2진 코드가 같은 경우는 없다.
+# > 만약 이런 경우가 있다면, 중복검사를 16진코드로하면 틀림
+# > 만약 16진코드를 구분하길 원하는 문제였다면, 2진코드로 냅다 바꾸면 틀림
+"""
+001100110010 2진 코드
+110011001000 2진 코드
+"""
 for tc in range(1, 1+int(input())):
     N, M = map(int, input().split())
-    codes = list(set([bin(int(input(), 16))[2:].rstrip('0') for _ in range(N)]))
+    codes = list(set([bin(int(input(), 16))[2:].strip('0') for _ in range(N)]))
     ans = []  # 정답 코드모음
     for code in codes:
         while code:
