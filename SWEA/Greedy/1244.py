@@ -34,39 +34,39 @@
 #2 7732
 #3 88832
 """
-def change(k, idx=0, flag=False):
+
+
+def change(k, idx=0, flag=True):
     global ans
 
-    if k == 0:
+    if k == 0:  # 교환 횟수가 안남았으면 저장
         ans = max(ans, int(''.join(N)))
         return
 
-    if idx == L-1:
-        if flag:
-            ans = int(''.join(sorted(N, reverse=True)))
-            return
-        if k%2:
+    if idx == L - 1:  # 1의자리까지 정렬이 끝나면 저장
+        if flag and k % 2:  # 남은 횟수가 홀수고, 중복이 없다면 자리교환
             N[-1], N[-2] = N[-2], N[-1]
         ans = max(int(''.join(N)), ans)
         return
 
-    j = idx+1
+    j = idx + 1
     bigs = [j]
-    for i in range(idx+1, L):
+    for i in range(j+1, L):  # 뒤의 숫자 중 가장 큰 숫자 담기
         if N[i] == N[j]:
             bigs.append(i)
         if N[i] > N[j]:
             j = i
             bigs = [i]
 
-    if N[j] > N[idx]:
-        for b in bigs:
+    if N[j] > N[idx]:  # 뒤에 숫자가 지금 숫자보다 크면
+        for b in bigs:  # 완전탐색으로 다 바꿔보기
             N[b], N[idx] = N[idx], N[b]
-            change(k-1, idx+1, flag)
-    else:
-        if N[j] == N[idx]:
-            flag = True
-        change(k, idx+1, flag)
+            change(k - 1, idx + 1, flag)
+            N[b], N[idx] = N[idx], N[b]
+    else:  # 아니면 바꾸지않고 다음 자리로
+        if N[j] == N[idx]:  # 뒤의 숫자가 지금 숫자와 같으면 중복체크
+            flag = False
+        change(k, idx + 1, flag)
 
 
 for tc in range(1, 1 + int(input())):
