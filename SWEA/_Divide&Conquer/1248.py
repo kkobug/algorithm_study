@@ -1,28 +1,26 @@
-def size(x):
-    global ans
-    ans += 1
-    if child[x]:
-        for i in child[x]:
-            size(i)
-
-for tc in range(1, 1+int(input())):
+def child(x):
+    global cnt
+    cnt += 1
+    if tree[x]:
+        for i in tree[x]:
+            child(i)
+    else:
+        return
+for tc in range(int(input())):
     V, E, A, B = map(int, input().split())
-    tree = list(map(int, input().split()))
-    child = [[] for _ in range(V+1)]
-    parent = [[] for _ in range(V+1)]
+    tree = [[] for _ in range(V+1)]
+    parents = [0] * (V+1)
+    nums = list(map(int, input().split()))
+    for i in range(E):
+        tree[nums[2*i]].append(nums[2*i+1])
+        parents[nums[2*i+1]] = nums[2*i]
 
-    for i in range(0, 2*E, 2):
-        child[tree[i]].append(tree[i+1])
-        parent[tree[i+1]].append(tree[i])
-
-    pA = parent[A][0]
-    pB = parent[B][0]
-    while pA != pB:
-        if pA < pB:
-            pB = parent[pB][0]
-        else:
-            pA = parent[pA][0]
-
-    ans = 0
-    size(pA)
-    print(f'#{pA} {ans}')
+    P = []
+    while A:
+        P.append(A)
+        A = parents[A]
+    while B not in P:
+        B = parents[B]
+    cnt = 0
+    child(B)
+    print(f'#{1+tc} {B} {cnt}')
