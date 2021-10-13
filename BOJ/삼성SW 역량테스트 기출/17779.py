@@ -1,85 +1,62 @@
-def gerry(x, y, d1, d2):
-    a, b, c, d, e = 0, 0, 0, 0, 0
-    for i in range(1, x+d1):
-        for j in range(1, y+1):
-            if i+j < x+y:
-                a += city[i][j]
-
-    for i in range(1, x+d2+1):
-        for j in range(y+1, N+1):
-            if j-i > y-x:
-                b += city[i][j]
-
-    for i in range(x+d1+1, N+1):
-        for j in range(1, y-d1+d2):
-            if i-j > x-y+2*d1:
-                c += city[i][j]
-
-    for i in range(x+d2+1, N+1):
-        for j in range(y-d1+d2, N+1):
-            if i+j > x+y:
-                d += city[i][j]
-
-    e = ppl - (a+b+c+d)
-
-    return max(a, b, c, d, e) - min(a, b, c, d, e)
-
-
-N = int(input())
-city = [[0]*(N+1)]
-for _ in range(N):
-    city.append([0] + list(map(int, input().split())))
-ppl = sum(map(sum, city))
-ans = 400000
-for _r in range(1, N-1):
-    for _c in range(2, N-1):
-        for _d1 in range(1, N):
-            for _d2 in range(1, N):
-                if _r+_d1+_d2 <= N and 1 <= _c-_d1 < _c < _c+_d2 <= N:
-                    ans = min(ans, gerry(_r, _c, _d1, _d2))
-
-print(ans)
-
-
-
 """
-def gerry(x, y, d1, d2):
-    a, b, c, d, e = 0, 0, 0, 0, 0
-    for i in range(x+d1):
-        for j in range(y+1):
-            if i+j < x+y:
-                a += city[i][j]
-
-    for i in range(x+d2+1):
-        for j in range(y+1, N):
-            if j-i > y-x:
-                b += city[i][j]
-
-    for i in range(x+d1, N):
-        for j in range(y-d1+d2):
-            if i-j > x-y+2*d1:
-                c += city[i][j]
-
-    for i in range(x+d2+1, N):
-        for j in range(y-d1+d2, N):
-            if i+j > x+y:
-                d += city[i][j]
-
-    e = ppl - (a+b+c+d)
-
-    return max(a, b, c, d, e) - min(a, b, c, d, e)
+https://www.acmicpc.net/problem/17779
+예제 입력
+6
+1 2 3 4 1 6
+7 8 9 1 4 2
+2 3 4 1 1 3
+6 6 6 6 9 4
+9 1 9 1 9 5
+1 1 1 1 9 9
+예제 출력
+18
+"""
+def gerry(r, c, d1, d2):
+    try:
+        _1 = _2 = _3 = _4 = 0
+        for i in range(r):
+            for j in range(c+1):
+                _1 += city[i][j]
+        for d in range(d1):
+            for j in range(c-d):
+                _1 += city[r+d][j]
+        r += d1
+        c -= d1
+        for i in range(r, N):
+            for j in range(c):
+                _3 += city[i][j]
+        for d in range(d2):
+            for i in range(r+d+1, N):
+                _3 += city[i][c+d]
+        r += d2
+        c += d2
+        for i in range(r+1, N):
+            for j in range(c, N):
+                _4 += city[i][j]
+        for d in range(d1):
+            for j in range(c+d+1, N):
+                _4 += city[r-d][j]
+        r -= d1
+        c += d1
+        for i in range(r+1):
+            for j in range(c+1, N):
+                _2 += city[i][j]
+        for d in range(d2):
+            for i in range(r-d):
+                _2 += city[i][c-d]
+        _5 = total - (_1+_2+_3+_4)
+        return max(_1, _2, _3, _4, _5) - min(_1, _2, _3, _4, _5)
+    except:
+        return 2000
 
 
 N = int(input())
 city = [list(map(int, input().split())) for _ in range(N)]
-ppl = sum(map(sum, city))
-ans = 400000
+total = sum(map(sum, city))
+ans = 2000
 for _r in range(N-2):
     for _c in range(1, N-1):
-        for _d1 in range(1, N-1):
-            for _d2 in range(1, N-1):
-                if _d1 <= _c < N-_d2 and _r+_d1+_d2 < N:
-                    ans = min(ans, gerry(_r, _c, _d1, _d2))
-
+        for _d1 in range(1, _c+1):
+            for _d2 in range(1, N-_c):
+                ans = min(ans, gerry(_r, _c, _d1, _d2))
 print(ans)
-"""
