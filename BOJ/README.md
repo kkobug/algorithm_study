@@ -93,6 +93,19 @@
 
 
 
+**\<Dijkstra\>**
+
+| No   | Difficulty | 문제     | comment                                                | solved |
+| ---- | ---------- | -------- | ------------------------------------------------------ | ------ |
+| 1261 | G4         | 알고스팟 | Dijkstra (queue & heap. heap의 시간복잡도가 더 효율적) | ✅      |
+|      |            |          |                                                        |        |
+|      |            |          |                                                        |        |
+|      |            |          |                                                        |        |
+|      |            |          |                                                        |        |
+|      |            |          |                                                        |        |
+
+
+
 **\<Binary Matching\>**
 
 | No    | Difficulty | 문제       | comment | solved |
