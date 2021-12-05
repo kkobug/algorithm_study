@@ -68,6 +68,22 @@
 
 
 
+**\<Heap\>**
+
+| No   | Difficulty | 문제            | comment | solved |
+| ---- | ---------- | --------------- | ------- | ------ |
+| 1655 | G2         | 가운데를 말해요 |         | ✅      |
+
+
+
+**\<Graph\>**
+
+| No   | Difficulty | 문제        | comment     | solved |
+| ---- | ---------- | ----------- | ----------- | ------ |
+| 3197 | P5         | 백조의 호수 | BFS + queue | ✅      |
+
+
+
 **\<Greedy\>**
 
 | No        | Difficulty | 문제                        | comment                                   | solved |
