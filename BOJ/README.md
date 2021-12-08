@@ -151,6 +151,14 @@
 
 
 
+**\<Divide & Conquer\>**
+
+| No    | Difficulty | 문제        | comment                            | solved |
+| ----- | ---------- | ----------- | ---------------------------------- | ------ |
+| 11401 | G1         | 이항 계수 3 | 페르마의 소정리, 거듭제곱 분할정복 | ✅      |
+
+
+
 **\<Binary Matching\>**
 
 | No    | Difficulty | 문제       | comment | solved |
