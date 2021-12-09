@@ -54,6 +54,15 @@
 
 
 
+**<삼성 A형 기출 문제>**
+
+| No    | Difficulty | 문제            | comment           | solved |
+| ----- | ---------- | --------------- | ----------------- | ------ |
+| 16637 | G3         | 괄호 추가하기   | brute force (dfs) | ✅      |
+| 17070 | G5         | 파이프 옮기기 1 | DP 또는 DFS       | ✅      |
+
+
+
 **\<Stack, Queue, Deque\>**
 
 | No    | Difficulty | 문제                | comment                          | solved |
