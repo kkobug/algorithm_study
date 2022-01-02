@@ -85,6 +85,15 @@
 
 
 
+**\<Tree\>**
+
+| No    | Difficulty | 문제           | comment | solved |
+| ----- | ---------- | -------------- | ------- | ------ |
+| 2042  | G1         | 구간 합 구하기 |         | ✅      |
+| 11505 | G1         | 구간 곱 구하기 |         | ✅      |
+
+
+
 **\<Graph\>**
 
 | No   | Difficulty | 문제        | comment     | solved |
