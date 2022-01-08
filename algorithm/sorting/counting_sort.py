@@ -5,35 +5,8 @@ int형 자료형(값이 index에 대응 가능해야함)에 대해서만 적용 
 배열 내 값들의 편차가 클 경우 비효율적
 """
 
-nums = [0, 2, 2, 4, 4, 8]
-
-
-# def counting(num_list):
-#     max_value = num_list[0]
-#     for i in num_list:
-#         if i > max_value:
-#             max_value = i
-#     result = [0] * len(num_list)
-#     counting_list = [0] * (max_value + 1)
-#
-#     for j in num_list:
-#         counting_list[j] += 1
-#
-#     # 개수 채우기
-#     for k in range(1, len(counting_list)):
-#         counting_list[k] = counting_list[k] + counting_list[k - 1]
-#
-#     for r in range(len(num_list) - 1, -1, -1):
-#         result[counting_list[num_list[r]] - 1] = num_list[r]
-#         counting_list[num_list[r]] -= 1
-#
-#     return result
-#
-#
-# print(counting(nums))
-
-
-def counting(num_list):
+arr = [4, 1, 2, 3, 0]
+def counting_sort(num_list):
     max_val = max(num_list)
     result = [0] * len(num_list)
     cnt_list = [0] * (max_val + 1)
@@ -49,4 +22,4 @@ def counting(num_list):
 
     return result
 
-print(counting(nums))
+print(counting_sort(arr))
