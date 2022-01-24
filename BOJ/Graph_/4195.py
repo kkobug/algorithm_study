@@ -7,10 +7,8 @@ input = stdin.readline
 def find(x):
     if x == parent[x]:
         return x
-    else:
-        parent_x = find(parent[x])
-        parent[x] = parent_x
-        return parent[x]
+    parent[x] = find(parent[x])
+    return parent[x]
 
 def union(x, y):
     root_x = find(x)
