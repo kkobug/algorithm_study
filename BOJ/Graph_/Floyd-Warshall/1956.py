@@ -11,7 +11,7 @@ for _ in range(E):
     a, b, c = map(int, input().split())
     road[a][b] = c
 
-ans = 4000000
+ans = 4000001
 dist = [[4000000]*(V+1) for _ in range(V+1)]
 
 for i in range(1, V+1):
@@ -34,6 +34,6 @@ for i in range(1, V+1):
                 dist[i][next_city] = total_dist
                 heappush(heap, (total_dist, next_city))
 
-if ans == 4000000:
+if ans > 4000000:
     ans = -1
 print(ans)
