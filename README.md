@@ -54,13 +54,13 @@
 - 알고리즘과 데이터의 구현 형태나 크기에 따라 계산횟수의 대략적인 표기
 - 시간 복잡도 함수 중 가장 큰 영향력을 주는 n만을 계수를 생략 ex. O(2n+1) = O(n)
 
-![bigo](.\images\bigo.png)
+![bigo](images\bigo.png)
 
 # Data Structure
 
 - 자료를 효율적으로 표현, 저장하고 처리할 수 있도록 정리하는 것
 
-![datastructure](.\images\datastructure.png)
+![datastructure](images\datastructure.png)
 
 - 단순 구조
 
