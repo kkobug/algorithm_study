@@ -15,6 +15,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | DFS/BFS   | 타겟 넘버          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | Greedy    | 조이스틱           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | DFS/BFS   | 네트워크           | ✅      |
 
 
