@@ -2,7 +2,16 @@
 
 ---
 
-##### 📚\<solved\>
+📚**\<solved\>**
+
+| level                                                     | algorithm | title            | solved |
+| --------------------------------------------------------- | --------- | ---------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow) |           | 124 나라의 숫자  | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | DP        | 스티커 모으기(2) | ✅      |
+
+
+
+##### 📚\<고득점 KIT\>
 
 | level                                                        | algorithm | title              | solved |
 | ------------------------------------------------------------ | --------- | ------------------ | ------ |
@@ -10,8 +19,8 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 정렬      | K번째수            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 모의고사           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | Greedy    | 체육복             | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자    | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 기능개발           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 다리를 지나는 트럭 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | DFS/BFS   | 타겟 넘버          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | Greedy    | 조이스틱           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
@@ -29,9 +38,18 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑          |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠      |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천   | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 합승 택시 요금     | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 양과늑대           |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2022 | 양궁대회           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 파괴되지 않은 건물 | ✅      |
+
+
+
+**:closed_book:\<코드챌린지\>**
+
+| level                                                     | season | title           | solved |
+| --------------------------------------------------------- | ------ | --------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow) | 3      | n^2 배열 자르기 | ✅      |
 
 
 
