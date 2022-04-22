@@ -31,34 +31,39 @@
 
 ##### 📘\<KAKAO\>
 
-| level                                                        | year | title              | solved |
-| ------------------------------------------------------------ | ---- | ------------------ | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자        |        |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2019 | 오픈채팅방         | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑          |        |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠      |        |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천   | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 합승 택시 요금     | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 양과늑대           |        |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2022 | 양궁대회           | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 파괴되지 않은 건물 | ✅      |
+| level                                                        | year | title                | solved |
+| ------------------------------------------------------------ | ---- | -------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 크레인 인형뽑기 게임 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자          |        |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2019 | 오픈채팅방           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑            |        |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠        |        |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천     | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 합승 택시 요금       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 양과늑대             |        |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2022 | 양궁대회             | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 파괴되지 않은 건물   | ✅      |
 
 
 
 **:green_book:\<Dev-Matching\>**
 
-| level                                                     | year | title            | solved |
-| --------------------------------------------------------- | ---- | ---------------- | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | 2021 | 다단계 칫솔 판매 | ✅      |
+| level                                                        | year | title                        | solved |
+| ------------------------------------------------------------ | ---- | ---------------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 로또의 최고 순위와 최저 순위 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 다단계 칫솔 판매             | ✅      |
 
 
 
 **:closed_book:\<코드챌린지\>**
 
-| level                                                     | season | title            | solved |
-| --------------------------------------------------------- | ------ | ---------------- | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow) | 3      | n^2 배열 자르기  | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | 3      | 금과 은 운반하기 | ✅      |
+| level                                                        | season | title                     | solved |
+| ------------------------------------------------------------ | ------ | ------------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 나머지가 1이 되는 수 찾기 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 두 개 뽑아서 더하기       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 없는 숫자 더하기          | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 3      | n^2 배열 자르기           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 3      | 금과 은 운반하기          | ✅      |
 
 
 
