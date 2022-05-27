@@ -8,6 +8,7 @@
 | --------------------------------------------------------- | --------- | ---------------- | ------ |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow) |           | 124 나라의 숫자  | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | DP        | 스티커 모으기(2) | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) |           | 2xn 타일링       | ✅      |
 
 
 
