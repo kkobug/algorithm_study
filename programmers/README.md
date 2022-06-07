@@ -66,6 +66,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2      | 음양 더하기               | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2      | 약수의 개수와 덧셈        | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 3      | n^2 배열 자르기           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 1      | 풍선 터트리기             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 3      | 금과 은 운반하기          | ✅      |
 
 
