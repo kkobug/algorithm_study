@@ -6,14 +6,11 @@ def solution(a):
         nonlocal a
         ret = i = 0
         while i < len(a)-1:
-            if a[i] != number and a[i+1] != number:
+            if (a[i] != number and a[i+1] != number) or (a[i] == number and a[i+1] == number):
                 i += 1
-                continue
-            if a[i] == number and a[i+1] == number:
-                i += 1
-                continue
-            ret += 1
-            i += 2
+            else:
+                ret += 1
+                i += 2
         return ret
 
     answer = max_number = 0
@@ -30,9 +27,7 @@ def solution(a):
     answer = get_star_sequence(max_number)
 
     for i in range(len(a)):
-        if reference[a[i]] <= answer:
-            continue
-        if visit[a[i]]:
+        if (reference[a[i]] <= answer) or visit[a[i]]:
             continue
         visit[a[i]] = True
         answer = max(answer, get_star_sequence(a[i]))
