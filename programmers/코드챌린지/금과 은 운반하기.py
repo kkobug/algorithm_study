@@ -1,3 +1,6 @@
+"""
+https://programmers.co.kr/learn/courses/30/lessons/86053
+"""
 def solution(a, b, g, s, w, t):
     answer = 5*(10**14)
     N = len(t)
