@@ -38,6 +38,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 크레인 인형뽑기 게임 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자          |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2019 | 오픈채팅방           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 경주로 건설          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑            |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠        |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천     | ✅      |
@@ -69,6 +70,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 3      | n^2 배열 자르기           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 1      | 풍선 터트리기             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 1      | 스타 수열                 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2      | 110 옮기기                | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 3      | 금과 은 운반하기          | ✅      |
 
 
