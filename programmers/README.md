@@ -38,6 +38,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 크레인 인형뽑기 게임 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자          |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2019 | 오픈채팅방           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2020 | 키패드 누르기        | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 경주로 건설          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑            |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠        |        |
