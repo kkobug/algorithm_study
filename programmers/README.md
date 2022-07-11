@@ -42,6 +42,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 경주로 건설          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 보석 쇼핑            |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2020 | 자물쇠와 열쇠        |        |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 숫자 문자열과 영단어 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천     | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 합승 택시 요금       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 양과늑대             |        |
@@ -63,6 +64,7 @@
 
 | level                                                        | season | title                     | solved |
 | ------------------------------------------------------------ | ------ | ------------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 3진법 뒤집기              | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 나머지가 1이 되는 수 찾기 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 두 개 뽑아서 더하기       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 없는 숫자 더하기          | ✅      |
