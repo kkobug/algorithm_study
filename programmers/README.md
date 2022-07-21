@@ -28,6 +28,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | DFS/BFS   | 네트워크           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | DFS/BFS   | 아이템 줍기        | ✅      |
 
 
 
