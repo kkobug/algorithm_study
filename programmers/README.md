@@ -2,14 +2,17 @@
 
 ---
 
-📚**\<solved\>**
+📚**\<연습문제\>**
 
-| level                                                     | algorithm | title            | solved |
-| --------------------------------------------------------- | --------- | ---------------- | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow) |           | 124 나라의 숫자  | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | DP        | 스티커 모으기(2) | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) |           | 2xn 타일링       | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange) | heap      | 야근 지수        | ✅      |
+| level                                                        | algorithm | title                   | solved |
+| ------------------------------------------------------------ | --------- | ----------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 2xn 타일링              | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 2016년                  | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 가운데 글자 가져오기    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 p와 y의 개수  | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수? | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수               | ✅      |
 
 
 
@@ -17,18 +20,23 @@
 
 | level                                                        | algorithm | title              | solved |
 | ------------------------------------------------------------ | --------- | ------------------ | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | hash      | 완주하지 못한 선수 | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 정렬      | K번째수            | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 모의고사           | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | Greedy    | 체육복             | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 기능개발           | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 다리를 지나는 트럭 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | DFS/BFS   | 타겟 넘버          | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | Greedy    | 조이스틱           | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | DFS/BFS   | 네트워크           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | DFS/BFS   | 아이템 줍기        | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 스택/큐   | 같은 숫자는 싫어   | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 기능개발           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 다리를 지나는 트럭 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 모의고사           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 최소직사각형       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 정렬      | K번째수            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | 가장 큰 수         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 해시      | 완주하지 못한 선수 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 해시      | 폰켓몬             | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 탐욕법    | 단속카메라         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 탐욕법    | 조이스틱           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 탐욕법    | 체육복             | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
 
 
 
@@ -62,6 +70,19 @@
 | ------------------------------------------------------------ | ---- | ---------------------------- | ------ |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 로또의 최고 순위와 최저 순위 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 다단계 칫솔 판매             | ✅      |
+
+
+
+:orange_book:**<Summer/Winter Coding>**
+
+| level                                                        | title            | solved |
+| ------------------------------------------------------------ | ---------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 예산             | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 스티커 모으기(2) | ✅      |
+
+
+
+
 
 
 
