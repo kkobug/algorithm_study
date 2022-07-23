@@ -36,6 +36,7 @@
 
 | level                                                        | year | title                | solved |
 | ------------------------------------------------------------ | ---- | -------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 실패율               | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 크레인 인형뽑기 게임 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자          |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2019 | 오픈채팅방           | ✅      |
@@ -48,6 +49,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 숫자 문자열과 영단어 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2021 | 신규 아이디 추천     | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2021 | 합승 택시 요금       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2022 | 신고 결과 받기       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 양과늑대             |        |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 2022 | 양궁대회             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2022 | 파괴되지 않은 건물   | ✅      |
