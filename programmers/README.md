@@ -4,15 +4,17 @@
 
 📚**\<연습문제\>**
 
-| level                                                        | algorithm | title                   | solved |
-| ------------------------------------------------------------ | --------- | ----------------------- | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 2xn 타일링              | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자         | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 2016년                  | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 가운데 글자 가져오기    | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 p와 y의 개수  | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수? | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수               | ✅      |
+| level                                                        | algorithm | title                     | solved |
+| ------------------------------------------------------------ | --------- | ------------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 2xn 타일링                | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 2016년                    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 가운데 글자 가져오기      | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 나누어 떨어지는 숫자 배열 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 두 정수 사이의 합         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 p와 y의 개수    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수?   | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수                 | ✅      |
 
 
 
@@ -44,6 +46,8 @@
 
 | level                                                        | year | title                | solved |
 | ------------------------------------------------------------ | ---- | -------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2018 | 다트 게임            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2018 | 비밀지도             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 실패율               | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2019 | 크레인 인형뽑기 게임 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 2019 | 불량 사용자          |        |
