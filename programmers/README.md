@@ -4,19 +4,25 @@
 
 📚**\<연습문제\>**
 
-| level                                                        | algorithm | title                     | solved |
-| ------------------------------------------------------------ | --------- | ------------------------- | ------ |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 2xn 타일링                | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자           | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 2016년                    | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 가운데 글자 가져오기      | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 나누어 떨어지는 숫자 배열 | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 두 정수 사이의 합         | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 p와 y의 개수    | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 다루기 기본        | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 서울에서 김서방 찾기      | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수?   | ✅      |
-| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수                 | ✅      |
+| level                                                        | algorithm | title                        | solved |
+| ------------------------------------------------------------ | --------- | ---------------------------- | ------ |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 2xn 타일링                   | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 124 나라의 숫자              | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 2016년                       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 가운데 글자 가져오기         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 나누어 떨어지는 숫자 배열    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 두 정수 사이의 합            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 땅따먹기                     | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 p와 y의 개수       | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내 마음대로 정렬하기  | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 내림차순으로 배치하기 | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 문자열 다루기 기본           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 서울에서 김서방 찾기         | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 소수 만들기                  | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 소수 찾기                    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수?      | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수                    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 최댓값과 최솟값              | ✅      |
 
 
 
@@ -34,6 +40,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 모의고사           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 최소직사각형       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 완전탐색  | 카펫               | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 완전탐색  | 피로도             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | H-Index            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 정렬      | K번째수            | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 정렬      | 가장 큰 수         | ✅      |
@@ -43,6 +50,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 탐욕법    | 단속카메라         | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 탐욕법    | 조이스틱           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 탐욕법    | 체육복             | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 탐욕법    | 큰 수 만들기       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
 
 
