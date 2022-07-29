@@ -21,7 +21,9 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 소수 만들기                  | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 소수 찾기                    | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 수박수박수박수박수박수?      | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 시저 암호                    | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    |           | 야근 지수                    | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) |           | 이상한 문자 만들기           | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    |           | 최댓값과 최솟값              | ✅      |
 
 
@@ -38,6 +40,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 다리를 지나는 트럭 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 스택/큐   | 프린터             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 모의고사           | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 완전탐색  | 소수 찾기          | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 완전탐색  | 최소직사각형       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 완전탐색  | 카펫               | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 완전탐색  | 피로도             | ✅      |
@@ -52,6 +55,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 탐욕법    | 체육복             | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 탐욕법    | 큰 수 만들기       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 힙(Heap)  | 더 맵게            | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.3-orange)    | 힙(Heap)  | 디스크 컨트롤러    | ✅      |
 
 
 
@@ -111,6 +115,7 @@
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 나머지가 1이 되는 수 찾기 | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 두 개 뽑아서 더하기       | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 1      | 없는 숫자 더하기          | ✅      |
+| ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 1      | 이진 변환 반복하기        | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2      | 음양 더하기               | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.1-brightgreen) | 2      | 약수의 개수와 덧셈        | ✅      |
 | ![brightgreen](https://img.shields.io/badge/-Lv.2-yellow)    | 3      | n^2 배열 자르기           | ✅      |
